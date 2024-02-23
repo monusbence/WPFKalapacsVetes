@@ -20,20 +20,29 @@
 
         <StackPanel Grid.Row="1" Margin="10">
 
-            <Label Content="Csoport"/>
-            <Label x:Name="CsoportLabel" Margin="0,5,0,10"/>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center"><Label Content="Csoport: "/>
+                <Label x:Name="CsoportLabel" Margin="0,5,0,10"/>
+            </StackPanel>
 
-            <Label Content="Nemzet:"/>
-            <Label x:Name="NemzetLabel" Margin="0,5,0,10"/>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <Label Content="Nemzet:"/>
+                <Label x:Name="NemzetLabel" Margin="0,5,0,10"/>
+            </StackPanel>
 
-            <Label Content="Nemzet kód:"/>
-            <Label x:Name="NemzetKodLabel" Margin="0,5,0,10"/>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <Label Content="Nemzet kód:"/>
+                <Label x:Name="NemzetKodLabel" Margin="0,5,0,10"/>
+            </StackPanel>
 
-            <Label Content="Sorozat:"/>
-            <Label x:Name="SorozatLabel" Margin="0,5,0,10"/>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <Label Content="Sorozat:"/>
+                <Label x:Name="SorozatLabel" Margin="0,5,0,10"/>
+            </StackPanel>
 
-            <Label Content="Eredmény:"/>
-            <Label x:Name="EredmenyLabel" Margin="0,5,0,10"/>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <Label Content="Eredmény:"/>
+                <Label x:Name="EredmenyLabel" Margin="0,5,0,10"/>
+            </StackPanel>
 
             <Label Content="Zászló:"/>
             <Image x:Name="flagImage" Margin="0,10,0,0" Width="500px" Height="200px"/>
